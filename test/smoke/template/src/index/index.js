@@ -1,0 +1,3 @@
+import {helloworld} from './helloworld';
+import "../../common";
+console.log(helloworld());
