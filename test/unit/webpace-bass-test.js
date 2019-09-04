@@ -6,8 +6,8 @@ describe("webapck.bass.js test case",()=>{
     const baseConfig = require("../../lib/webpack.base.js")
     
     it('entry',()=>{
-        assert.equal(baseConfig.entry.index,'D:/工作学习/前端学习/前端作业/webpack_study4.0/builder-webpack/test/smoke/template/src/index/index.js');
-        assert.equal(baseConfig.entry.search,'D:/工作学习/前端学习/前端作业/webpack_study4.0/builder-webpack/test/smoke/template/src/search/index.js')
+        assert.equal(baseConfig.entry.index.indexOf("test/smoke/template/src/index/index.js") > -1,true);
+        assert.equal(baseConfig.entry.search.indexOf('builder-webpack/test/smoke/template/src/search/index.js') > -1,true)
 
     })
 })
