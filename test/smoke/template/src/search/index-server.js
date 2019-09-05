@@ -1,13 +1,11 @@
 'use strict'
 
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './search.css';
 import "../../common";
 import image from './images/10.jpg';
 import './search.less'
 import largrNumber from 'webpack_syudy3.4'
-import {a} from "./tree-shaking";
 
 
 class Search extends React.Component{
